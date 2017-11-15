@@ -26,7 +26,7 @@ namespace AmazonServices
         {
             Para = para;
             Message = new MailMessage();
-            Message.From = new MailAddress("soubotafogo@bfr.com.br", "Botafogo de Futebol e Regatas");
+            Message.From = new MailAddress("xxxx@xxx.xxx", "xxxxxxxxx");
             Message.To.Add(Para);
         }
         
